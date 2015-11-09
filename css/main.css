@@ -1,6 +1,5 @@
 body {
-	width: 940px;
-	margin: 0 auto;
+	margin: 0;
 }
 
 .left {
@@ -24,6 +23,12 @@ body {
 	clear: both;
 }
 
+.content-wrapper {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0;
+}
+
 nav > ul > li {
 	text-transform: uppercase;
 	list-style-type: none;
@@ -35,10 +40,13 @@ nav > ul > li {
 }
 
 header {
-	font-family: sans-serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 	font-size: 13px;
-	font-weight: 550;
-	padding-bottom: 15px;
+	background-color: white;
+	padding: 0 0 10px 0;
+	box-shadow: 0 1px 3px 0 grey;
+	position: fixed;
+	width: 100%;
 }
 
 header a:link, header a:visited{
@@ -49,7 +57,6 @@ header a:link, header a:visited{
 .logo {
 	background: url(img/comverse-logo.png);
 	margin-right: 45px;
-	margin-top: -3px;
 	height: 62px;
 	width: 185px;
 }
@@ -60,7 +67,7 @@ header a:link, header a:visited{
 	margin-top: 30px;
 }
 
-#search {
+.search {
 	width: 105px;
 	height: 20px;
 	border: none;
@@ -70,7 +77,7 @@ header a:link, header a:visited{
 	outline: none;
 }
 
-#submit {
+.submit {
 	background: white url(img/searchBtn.png) right center no-repeat;
 	border: none;
 	margin-right: 8px;
@@ -96,4 +103,27 @@ header a:link, header a:visited{
 	border: none;
 	color: #585951;
 	padding: 0;
+}
+
+.login a:hover {
+	text-decoration: underline;
+}
+
+.slides {
+	background: url(img/slide-bg-complexity.jpg) no-repeat center center;
+	background-position: fixed;
+	background-size: cover;
+	padding-top: 100px;
+}
+
+.highlights {
+	height: 240px;
+	width: 420px;
+	font-family: ;
+	font-size: 3em;
+	font-style: 
+}
+
+.strong {
+	font-size: 1.1em;
 }
