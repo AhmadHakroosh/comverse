@@ -110,20 +110,93 @@ header a:link, header a:visited{
 }
 
 .slides {
-	background: url(img/slide-bg-complexity.jpg) no-repeat center center;
-	background-position: fixed;
+	background: url(img/slide-bg-complexity.jpg) no-repeat center center fixed;
 	background-size: cover;
-	padding-top: 100px;
+	padding-top: 80px;
+	min-height: 550px;
 }
 
 .highlights {
 	height: 240px;
 	width: 420px;
-	font-family: ;
-	font-size: 3em;
-	font-style: 
+	padding: 10px 0 10px 0;
+	font-family: Verdana, Geneva, sans-serif;
+	color: white;
 }
 
-.strong {
-	font-size: 1.1em;
+.highlights > h1 {
+	font-weight: normal;
+	font-size: 2em;
+}
+
+.highlights > a > button {
+	background: url(img/btnArrow.png) right 15px center no-repeat, linear-gradient(to bottom, #2e94c8 , #1188c4);
+	height: 36px;
+	width: 180px;
+	padding: 10px;
+	border: none;
+	text-align: left;
+	border-radius: 6px;
+	color: white;
+	box-shadow: 0 1px 3px 0 grey;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+.dot {
+	width: 10px;
+	height: 10px;
+	background-color: #e0e0e0;
+	border-radius: 2px;
+	margin-right: 8px;
+	box-shadow: 0 1px 3px 0 grey;
+}
+
+.active {
+	background-color: #2e95ca;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.slides .content-wrapper ul {
+	margin: 0;
+	padding: 0;
+}
+
+.card {
+	width: 27%;
+	height: 7em;
+	padding: 20px 15px 20px 15px;
+	margin-right: 34px;
+	border-radius: 6px;
+	list-style-type: none;
+	box-shadow: 0 1px 3px 0 grey;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 1.2em;
+	color: white;
+}
+
+.card:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.transparent {
+	opacity: 0.9;
+}
+
+.pink {
+	background-color: #fb429e;
+}
+
+.green {
+	background-color: #6ac032;
+}
+
+.orange {
+	background-color: #ff7518;
 }
