@@ -45,7 +45,7 @@ header {
 	background-color: white;
 	padding: 0 0 10px 0;
 	box-shadow: 0 1px 3px 0 grey;
-	position: fixed;
+	/*position: fixed;*/
 	width: 100%;
 }
 
