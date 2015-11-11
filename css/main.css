@@ -29,16 +29,6 @@ body {
 	padding: 0;
 }
 
-nav > ul > li {
-	text-transform: uppercase;
-	list-style-type: none;
-	/*float: left;*/
-	width: auto;
-	background: white url(img/divider.png) right center no-repeat;
-	padding: 0 10px 0 10px;
-	/*margin-top: 48px;*/
-}
-
 header {
 	font-family: Helvetica, Arial, Sans-Serif;
 	font-size: 13px;
@@ -47,6 +37,16 @@ header {
 	box-shadow: 0 1px 3px 0 grey;
 	/*position: fixed;*/
 	width: 100%;
+}
+
+.nav-item {
+	text-transform: uppercase;
+	list-style-type: none;
+	/*float: left;*/
+	width: auto;
+	background: white url(img/divider.png) right center no-repeat;
+	padding: 0 10px 0 10px;
+	/*margin-top: 48px;*/
 }
 
 header a:link, header a:visited{
@@ -90,7 +90,7 @@ header a:link, header a:visited{
 	/*margin-top: -20px;*/
 }
 
-.login > ul > li {
+.login-menu-item {
 	/*float: right;*/
 	padding-left: 10px;
 	list-style-type: none;
@@ -98,7 +98,7 @@ header a:link, header a:visited{
 	outline: none;
 }
 
-.login > ul > li > select {
+.language-menu {
 	width: 45px;
 	border: none;
 	color: #585951;
@@ -124,12 +124,12 @@ header a:link, header a:visited{
 	color: white;
 }
 
-.highlights > h1 {
+.heading {
 	font-weight: normal;
 	font-size: 2em;
 }
 
-.highlights > a > button {
+.highlights-button {
 	background: url(img/btnArrow.png) right 15px center no-repeat, linear-gradient(to bottom, #2e94c8 , #1188c4);
 	height: 36px;
 	width: 180px;
