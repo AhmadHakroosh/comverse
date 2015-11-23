@@ -42,11 +42,11 @@ header {
 .nav-item {
 	text-transform: uppercase;
 	list-style-type: none;
-	/*float: left;*/
+	float: left;
 	width: auto;
 	background: white url(img/divider.png) right center no-repeat;
 	padding: 0 10px 0 10px;
-	/*margin-top: 48px;*/
+	margin-top: 48px;
 }
 
 header a:link, header a:visited{
@@ -56,7 +56,7 @@ header a:link, header a:visited{
 
 .logo {
 	background: url(img/comverse-logo.png);
-	/*margin-right: 45px;*/
+	margin-right: 45px;
 	height: 62px;
 	width: 185px;
 }
@@ -64,14 +64,14 @@ header a:link, header a:visited{
 .search-form {
 	border: 1px solid #d2d2d2;
 	border-radius: 6px;
-	/*margin-top: 30px;*/
+	margin-top: 30px;
 }
 
 .search {
 	width: 105px;
 	height: 20px;
 	border: none;
-	/*margin: 0 5px 0 5px;*/
+	margin: 0 5px 0 5px;
 	border-radius: 6px;
 	background: white url(img/divider.png) right center no-repeat;
 	outline: none;
@@ -80,18 +80,18 @@ header a:link, header a:visited{
 .submit {
 	background: white url(img/searchBtn.png) right center no-repeat;
 	border: none;
-	/*margin-right: 8px;*/
+	margin-right: 8px;
 	padding-top: 5px;
 	outline: none;
 	cursor: pointer;
 }
 
 .login {
-	/*margin-top: -20px;*/
+	margin-top: -20px;
 }
 
 .login-menu-item {
-	/*float: right;*/
+	float: right;
 	padding-left: 10px;
 	list-style-type: none;
 	background: white url(img/divider.png) left center no-repeat;
@@ -150,7 +150,7 @@ button:hover{
 	height: 10px;
 	background-color: #e0e0e0;
 	border-radius: 2px;
-	/*margin-right: 8px;*/
+	margin-right: 8px;
 	box-shadow: 0 1px 3px 0 grey;
 }
 
@@ -171,7 +171,7 @@ button:hover{
 	width: 27%;
 	height: 7em;
 	padding: 20px 15px 20px 15px;
-	/*margin-right: 34px;*/
+	margin-right: 34px;
 	border-radius: 6px;
 	list-style-type: none;
 	box-shadow: 0 1px 3px 0 grey;
