@@ -2,6 +2,11 @@ body {
 	margin: 0;
 }
 
+h1 {
+	font-size: 2em;
+	font-weight: normal;
+}
+
 .left {
 	float: left;
 }
@@ -14,6 +19,10 @@ body {
 	background: none !important;
 }
 
+.no-style-list {
+	list-style-type: none;
+}
+
 .no-margin {
 	margin-right: 0 !important;
 	margin-left: 0 !important;
@@ -23,10 +32,23 @@ body {
 	clear: both;
 }
 
+.bold-font {
+	font-weight: bold;
+}
+
+.normal-font {
+	font-weight: normal;
+}
+
 .content-wrapper {
 	width: 940px;
 	margin: 0 auto;
 	padding: 0;
+}
+
+section {
+	box-shadow: 0 1px 3px 0 grey;
+	overflow: hidden;
 }
 
 header {
@@ -114,6 +136,7 @@ header a:link, header a:visited{
 	background-size: cover;
 	padding-top: 80px;
 	min-height: 550px;
+	z-index: 6;
 }
 
 .highlights {
@@ -129,7 +152,7 @@ header a:link, header a:visited{
 	font-size: 2em;
 }
 
-.highlights-button {
+.blue-button {
 	background: url(img/btnArrow.png) right 15px center no-repeat, linear-gradient(to bottom, #2e94c8 , #1188c4);
 	height: 36px;
 	width: 180px;
@@ -145,7 +168,7 @@ button:hover{
 	cursor: pointer;
 }
 
-.dot {
+.bullet {
 	width: 10px;
 	height: 10px;
 	background-color: #e0e0e0;
@@ -181,22 +204,141 @@ button:hover{
 }
 
 .card:hover {
-	opacity: 1;
 	cursor: pointer;
 }
 
-.transparent {
-	opacity: 0.9;
+.pink {
+	background-color: rgba(251, 66, 158, 0.9);
 }
 
-.pink {
-	background-color: #fb429e;
+.pink:hover {
+	background-color: rgba(251, 66, 158, 1);
 }
 
 .green {
-	background-color: #6ac032;
+	background-color: rgba(106, 192, 50, 0.9);
+}
+
+.green:hover {
+	background-color: rgba(106, 192, 50, 1);
 }
 
 .orange {
-	background-color: #ff7518;
+	background-color: rgba(255, 117, 24, 0.9);
+}
+
+.orange:hover {
+	background-color: rgba(255, 117, 24, 1);
+}
+
+.more-details {
+	font-size: 0.7em;
+	font-weight: bold;
+	margin-top: 2.5em;
+}
+
+.details-icon {
+	display: inline-block;
+	vertical-align: middle;
+	width: 29px;
+	height: 22px;
+	padding: 0;
+}
+
+.details-text {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.services {
+	background: url(img/weDoBG.png) repeat scroll 0 0, radial-gradient(ellipse at center, #59bedb 0%,#3399cc 100%);
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	padding: 30px 0 60px;
+	margin-bottom: 0;
+	z-index: 5;
+}
+
+.services h1 {
+	text-align: center;
+}
+
+.service-item {
+	width: 130px;
+	height: 150px;
+	float: left;
+	margin: 0 20px 60px 0;
+	vertical-align: middle;
+}
+
+.service-icon {
+	height: 100px;
+	margin-bottom: 15px;
+}
+
+.service-name {
+	text-transform: none;
+	font-size: 0.9em;
+}
+
+.data-monetization {
+	display: block;
+	background: transparent url(img/data-monetization.png) no-repeat center bottom;
+}
+
+.data-monetization:hover {
+	background: transparent url(img/data-monetization-hover.png) no-repeat center bottom;
+}
+
+.machine-to-machine {
+	display: block;
+	background: transparent url(img/robot-icon.png) no-repeat center bottom;
+}
+
+.machine-to-machine:hover {
+	background: transparent url(img/robot-icon-hover.png) no-repeat center bottom;
+}
+
+.over-the-top {
+	display: block;
+	background: transparent url(img/flag-icon.png) no-repeat center bottom;
+}
+
+.over-the-top:hover {
+	background: transparent url(img/flag-icon-hover.png) no-repeat center bottom;
+}
+
+.cloud-computing {
+	display: block;
+	background: transparent url(img/cloud-icon.png) no-repeat center bottom;
+}
+
+.cloud-computing:hover {
+	background: transparent url(img/cloud-icon-hover.png) no-repeat center bottom;
+}
+
+.managed-services {
+	display: block;
+	background: transparent url(img/managed-services.png) no-repeat center bottom;
+}
+
+.managed-services:hover {
+	background: transparent url(img/managed-services-hover.png) no-repeat center bottom;
+}
+
+.social-media {
+	display: block;
+	background: transparent url(img/social-icon.png) no-repeat center bottom;
+}
+
+.social-media:hover {
+	background: transparent url(img/social-icon-hover.png) no-repeat center bottom;
+}
+
+
+
+.news-events {
+	background: url(img/news-and-events-bg.jpg) no-repeat 50% fixed #1e1c1b;
 }
