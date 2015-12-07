@@ -21,6 +21,8 @@ h1 {
 
 .no-style-list {
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 .no-margin {
@@ -41,7 +43,7 @@ h1 {
 }
 
 .content-wrapper {
-	width: 940px;
+	width: 950px;
 	margin: 0 auto;
 	padding: 0;
 }
@@ -256,9 +258,9 @@ button:hover{
 	text-transform: uppercase;
 	text-align: center;
 	color: white;
-	padding: 30px 0 60px;
-	margin-bottom: 0;
-	z-index: 5;
+	padding: 0 0 60px;
+	box-shadow: inset 0 1px 3px 0 grey;
+	z-index: 4;
 }
 
 .services h1 {
@@ -266,11 +268,16 @@ button:hover{
 }
 
 .service-item {
-	width: 130px;
+	width: 140px;
 	height: 150px;
 	float: left;
 	margin: 0 20px 60px 0;
 	vertical-align: middle;
+	cursor: pointer;
+}
+
+.service-item:last-child {
+	margin: 0 0 60px 0;
 }
 
 .service-icon {
@@ -337,8 +344,199 @@ button:hover{
 	background: transparent url(img/social-icon-hover.png) no-repeat center bottom;
 }
 
-
-
 .news-events {
-	background: url(img/news-and-events-bg.jpg) no-repeat 50% fixed #1e1c1b;
+	background: url(img/news-and-events-bg.jpg) no-repeat 50% fixed #ffffff;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: white;
+	z-index: 5;
+	height: 420px;
+}
+
+.news-events h1{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.news, .events {
+	display: inline-block;
+	float: left;
+	font-size: 2em;
+	margin-top: 30px;
+}
+
+.news-item, .events-item {
+	float: left;
+	margin-right: 25px;
+	padding: 0;
+	font-size: 0.5em;
+}
+
+.news-item-details, .events-item-details {
+	background: rgba(221, 211, 203, 0.6);
+	width: 296px;
+	height: 120px;
+	border-radius: 3px;
+}
+
+.news-item-details p, .events-item-details p{
+	color: black;
+	padding: 10px;
+	font-size: 0.8em;
+	text-transform: capitalize;
+}
+
+.date {
+	float: left;
+	width: 70px;
+	height: 100px;
+	background: rgb(51, 153, 204);
+	border-radius: 1px;
+	margin: 10px;
+	box-shadow: 0 1px 4px 0 grey;
+}
+
+.day {
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: bold;
+	border-bottom: 1px dotted;
+}
+
+.month {
+	text-transform: uppercase;
+	text-align: center;
+	padding: 4px;
+	font-size: 1.2em;
+}
+
+.calendar {
+	text-transform: capitalize;
+	list-style-image: url(img/eventListIconEvents.png);
+	margin: 5px 30px 0;
+	font-size: 0.8em;
+	display: inline-block;
+}
+
+.calendar:hover {
+	list-style-image: url(img/eventListIconEvents_hover.png);
+}
+
+.paper {
+	text-transform: capitalize;
+	list-style-image: url(img/eventListIconNews.png);
+	margin: 5px 30px 0;
+	font-size: 0.8em;
+	display: inline-block;
+}
+
+.paper:hover {
+	list-style-image: url(img/eventListIconNews_hover.png);
+}
+
+.success-stories {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background: rgb(236, 236, 236);
+	height: 555px;
+}
+
+.success-stories h1 {
+	font-size: 2em;
+	text-align: center;
+	color: rgb(86, 86, 86);
+	text-transform: uppercase;
+}
+
+.story-item {
+	width: 350px;
+	height: 315px;
+	margin: 0 10px 10px 0;
+	color: #7c7c7c;
+	float: left;
+}
+
+.story-item:last-child {
+	width: 230px;
+	margin: 0 0 10px 0;
+}
+
+.story-details {
+	background: rgb(255, 255, 255);
+	padding: 18px;
+	border-radius: 2px;
+	margin: 0 0 10px 0;
+}
+
+.quote {
+	border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.quote-image {
+	height: 110px;
+	width: 100px;
+	float: left;
+	margin-right: 15px;
+}
+
+.quote-text p {
+	margin: 0 0 25px 0;
+	overflow: hidden;
+}
+
+.smaller-text {
+	font-size: 0.8em;
+}
+
+.author {
+	font-size: 0.8em;
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+
+.name {
+	color: #4fadde;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 5px 0 0 0;
+}
+
+.company {
+	font-weight: normal;
+	margin: 0;
+}
+
+.company-logo {
+	float: right;
+	height: 30px;
+}
+
+img.company-logo {
+    -webkit-filter: grayscale(100%) opacity(50%);
+    filter: grayscale(100%) opacity(50%);
+}
+
+.client-logo {
+	width: 110px;
+	height: 100px;
+	background: rgb(255, 255, 255);
+	border-radius: 2px;
+	float: left;
+	margin: 0 0 10px 10px;
+	text-align: center;
+}
+
+.client-logo:first-child {
+	margin: 0 0 10px 0;
+}
+
+.client-logo img {
+	display: inline-block;
+	vertical-align: middle;
+    -webkit-filter: grayscale(100%) opacity(50%);
+    filter: grayscale(100%) opacity(50%);
+}
+
+.container {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
 }
