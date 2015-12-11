@@ -606,6 +606,10 @@ footer {
 	font-size: 1.2em;
 }
 
+.post-title {
+	padding-top: 15px;
+}
+
 .footer-date {
 	float: left;
 	margin-right: 20px;
