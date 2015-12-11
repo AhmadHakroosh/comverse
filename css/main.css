@@ -59,8 +59,9 @@ header {
 	background-color: white;
 	padding: 0 0 10px 0;
 	box-shadow: 0 1px 3px 0 grey;
-	position: fixed;
+	position: absolute;
 	width: 100%;
+	z-index: 100;
 }
 
 .nav-item {
@@ -345,7 +346,7 @@ button:hover{
 }
 
 .news-events {
-	background: url(img/news-and-events-bg.jpg) no-repeat 50% fixed #ffffff;
+	background: url(img/news-and-events-bg.jpg) no-repeat fixed;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	color: white;
 	z-index: 5;
@@ -522,6 +523,8 @@ img.company-logo {
 	float: left;
 	margin: 0 0 10px 10px;
 	text-align: center;
+	position: relative;
+	z-index: 1;
 }
 
 .client-logo:first-child {
@@ -535,8 +538,136 @@ img.company-logo {
     filter: grayscale(100%) opacity(50%);
 }
 
+.client-logo:after {
+	background: #3aa6db;
+    content: "";
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 100%; 
+    height: 0px;
+    z-index: -1;
+    transition: height 0.3s;
+}
+
+.client-logo:hover:after {
+	height: 100%;
+}
+
 .container {
     display: inline-block;
     vertical-align: middle;
     height: 100%;
+}
+
+footer {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 0.8em;
+	color: #dbdbdb;
+	background: url(img/footer-bg.png);
+	height: 320px;
+}
+
+.categories {
+	float: left;
+}
+
+.category {
+	float: left;
+	margin-right: 60px;
+}
+
+.category-header {
+	text-transform: uppercase;
+	line-height: 50px;
+	font-size: 1em;
+}
+
+.posts-subscribe {
+	float: right;
+	width: 260px;
+	height: 320px;
+	background: rgba(221, 211, 203, 0.15);
+	color: white;
+}
+
+.posts-subscribe h1 {
+	color: #4ea7d3;
+	text-transform: uppercase;
+	font-size: 1.3em;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.latest-posts {
+	border-bottom: 1px solid rgb(106, 106, 106);
+	margin: 20px;
+	padding-bottom: 20px;
+	font-size: 1.2em;
+}
+
+.footer-date {
+	float: left;
+	margin-right: 20px;
+}
+
+.footer-day {
+	font-weight: bolder;
+	font-size: 2.5em;
+	padding-bottom: 0;
+}
+
+.footer-month {
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 0;
+}
+
+.subscription {
+	margin: 20px;
+}
+
+.subscribe-form {
+	border: none;
+	width: 100%;
+	border-radius: 2px;
+	outline: none;
+	background: white;
+}
+
+.subscribe-email {
+	width: 60%;
+	height: 26px;
+	margin: 0;
+	padding: 0 0 0 5px;
+	border: none;
+	border-radius: 2px;
+	background: white;
+}
+
+.subscribe-submit {
+	background: linear-gradient(to bottom, #40a5d7 , #2a92c6);
+	color: white;
+	border: none;
+	outline: none;
+	border-radius: 2px;
+	cursor: pointer;
+	height: 26px;
+	width: 35%;
+}
+
+.social-menu {
+	margin-top: 35px;
+}
+
+.social-menu-item {
+	float: left;
+	margin-right: 10px;
+}
+
+.copyright {
+	display: block;
+	clear: left;
+	padding-top: 65px;
+	color: rgb(113, 113, 113);
 }
