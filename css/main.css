@@ -346,7 +346,7 @@ button:hover{
 }
 
 .news-events {
-	background: url(img/news-and-events-bg.jpg) no-repeat fixed;
+	background: url(img/news-and-events-bg.jpg) 50% no-repeat fixed;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	color: white;
 	z-index: 5;
@@ -377,6 +377,11 @@ button:hover{
 	width: 296px;
 	height: 120px;
 	border-radius: 3px;
+}
+
+.news-item-details:hover , .events-item-details:hover {
+	background: rgba(221, 211, 203, 0.9);
+	cursor: pointer;
 }
 
 .news-item-details p, .events-item-details p{
@@ -420,6 +425,7 @@ button:hover{
 
 .calendar:hover {
 	list-style-image: url(img/eventListIconEvents_hover.png);
+	color: black;
 }
 
 .paper {
@@ -432,6 +438,7 @@ button:hover{
 
 .paper:hover {
 	list-style-image: url(img/eventListIconNews_hover.png);
+	color: black;
 }
 
 .success-stories {
@@ -568,6 +575,14 @@ footer {
 	height: 320px;
 }
 
+footer a:link {
+	text-decoration: none;
+}
+
+footer a:visited {
+	color: #dbdbdb;
+}
+
 .categories {
 	float: left;
 }
@@ -633,14 +648,13 @@ footer {
 
 .subscribe-form {
 	border: none;
-	width: 100%;
 	border-radius: 2px;
 	outline: none;
 	background: white;
 }
 
 .subscribe-email {
-	width: 60%;
+	width: 67%;
 	height: 26px;
 	margin: 0;
 	padding: 0 0 0 5px;
@@ -653,11 +667,11 @@ footer {
 	background: linear-gradient(to bottom, #40a5d7 , #2a92c6);
 	color: white;
 	border: none;
-	outline: none;
 	border-radius: 2px;
 	cursor: pointer;
 	height: 26px;
-	width: 35%;
+	width: 30%;
+	float: right;
 }
 
 .social-menu {
@@ -673,5 +687,9 @@ footer {
 	display: block;
 	clear: left;
 	padding-top: 65px;
+	color: rgb(113, 113, 113);
+}
+
+.copyright a:visited {
 	color: rgb(113, 113, 113);
 }
