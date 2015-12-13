@@ -6,15 +6,18 @@
 	<title>Comverse</title>
 	<!-- Link base stylesheet -->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!-- Link mobile phones display stylesheet -->
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
 </head>
 <body>
 
 	<header>
 		<div class="content-wrapper">
 			<nav>
-				<a href=""><div class="logo left"></div></a>
+				<a href=""><div class="mobile-logo center"><img src="css/img/comverse-logo-medium.png" alt="Comverse logo"></div></a>
+				<a href=""><div class="logo left"><img src="css/img/comverse-logo.png" alt="Comverse logo"></div></a>
 
-				<ul>
+				<ul class="menu-items">
 					<li class="nav-item">
 						<a href="">Your Needs</a>
 					</li>
@@ -41,11 +44,29 @@
 						</li>
 					</ul>
 				</div>
-
+				
+				<button type="button" class="mobile-search center"><img src="css/img/searchBtnMobile.png" alt=""></button>
 				<form method="GET" action="" class="search-form right">
 					<input type="search" name="search" class="search left">
 					<input type="submit" name="submit" value="" class="submit left">
 				</form>
+
+				<button type="button" class="mobile-menu"><img src="css/img/hamburger-icon.png" alt=""></button>
+
+				<ul class="mobile-menu-items">
+					<li class="mobile-nav-item">
+						<a href="">Your Needs</a>
+					</li>
+					<li class="mobile-nav-item">
+						<a href="">Our Portfolio</a>
+					</li>
+					<li class="mobile-nav-item">
+						<a href="">News &amp; Media</a>
+					</li>
+					<li class="mobile-nav-item">
+						<a href="">About Comverse</a>
+					</li>
+				</ul>
 			</nav>
 		</div>
 	</header>
@@ -54,13 +75,14 @@
 	<section class="slides">
 		<div class="content-wrapper">
 			<div class="highlights">
-				<h1 class="normal-font"><span class="bold-font">Free</span> Your Markets From IT <span class="bold">Complexity</span></h1>
-				Comverse Policy Studio
-				<br>
-				<span class="bold">1st</span> Ever Marketing-Oriented Policy Tool
-				<br><br>
+				<div class="highlights-header">
+					<h1 class="normal-font"><span class="bold-font">Free</span> Your Markets From IT <span class="bold">Complexity</span></h1>
+					Comverse Policy Studio
+					<p><span class="bold">1st</span> Ever Marketing-Oriented Policy Tool</p>
+				</div>
+
 				<a href=""><button class="blue-button">LEARN MORE</button></a>
-				<br><br>
+
 				<ul class="no-style-list">
 					<li><a href=""><div class="left bullet active"></div></a></li>
 					<li><a href=""><div class="left bullet"></div></a></li>
@@ -69,9 +91,7 @@
 				</ul>
 			</div>
 
-			<br><br><br><br>
-
-			<ul>
+			<ul class="cards">
 				<li class="left card pink">
 					Comverse Is Value-Added Service Global Market Leader.
 					<div class="more-details">
@@ -317,6 +337,9 @@
 					</div>
 				</li>
 			</ul>
+			<div class="center">
+				<a href=""><button class="blue-button">All 256 Success Stories</button></a>
+			</div>
 		</div>
 	</section>
 <!--Success stories section end-->
@@ -375,9 +398,9 @@
 						<input type="submit" value="SIGN UP" class="subscribe-submit"/>
 					</form>
 					<ul class="no-style-list social-menu">
-						<li class="social-menu-item"><img src="css/img/socialMenuIcon-youtube.png" alt=""></li>
-						<li class="social-menu-item"><img src="css/img/socialMenuIcon-twitter.png" alt=""></li>
-						<li class="social-menu-item"><img src="css/img/socialMenuIcon-linkedin.png" alt=""></li>
+						<li class="social-menu-item"><a href=""><img id="social-youtube" src="css/img/socialMenuIcon-youtube.png" alt=""></a></li>
+						<li class="social-menu-item"><a href=""><img id="social-twitter" src="css/img/socialMenuIcon-twitter.png" alt=""></a></li>
+						<li class="social-menu-item"><a href=""><img id="social-linkedin" src="css/img/socialMenuIcon-linkedin.png" alt=""></a></li>
 					</ul>
 				</div>
 			</div>
