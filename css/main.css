@@ -494,6 +494,10 @@ button:hover{
 	margin: 0 0 10px 0;
 }
 
+.story-details.down-view {
+	margin-top: 112px;
+}
+
 .quote {
 	border-bottom: 1px solid rgb(221, 221, 221);
 }
@@ -540,6 +544,11 @@ button:hover{
 img.company-logo {
     -webkit-filter: grayscale(100%) opacity(50%);
     filter: grayscale(100%) opacity(50%);
+}
+
+.clients.up-view {
+	margin-top: -344px;
+	position: absolute;
 }
 
 .client-logo {

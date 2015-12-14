@@ -282,6 +282,16 @@
 		margin: 0 0 20px 0;
 	}
 
+	.story-details.down-view {
+		margin-top: 0;
+		position: relative;
+	}
+
+	.clients.up-view {
+		margin-top: 0;
+		position: relative;
+	}
+
 	.client-logo {
 		width: 30.95%;
 	}
