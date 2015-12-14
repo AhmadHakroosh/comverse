@@ -80,11 +80,23 @@
 		display: inline-block;
 		position: absolute;
 		background: white;
-		margin: 10px 0 0 -120px;
+		margin: 0 0 0 -145px;
+		height: 38px;
+		width: 180px;
 	}
 
 	.search-form {
 		display: none;
+	}
+
+	.search {
+		width: 150px;
+		height: 38px;
+	}
+
+	.submit {
+		float: right;
+		margin-top: 9px;
 	}
 
 	.highlights {
