@@ -196,6 +196,10 @@ button:hover{
 	box-shadow: 0 1px 3px 0 grey;
 }
 
+.numbered-bullets {
+	display: none;
+}
+
 .active {
 	background-color: #2e95ca;
 }
@@ -710,6 +714,10 @@ footer a:visited {
 	content: url(img/socialMenuIcon-linkedin_hover.png);
 }
 
+.mobile-footer {
+	display: none;
+}
+
 .copyright {
 	display: block;
 	clear: left;
@@ -719,4 +727,8 @@ footer a:visited {
 
 .copyright a:visited {
 	color: rgb(113, 113, 113);
+}
+
+.mobile-copyright {
+	display: none;
 }
