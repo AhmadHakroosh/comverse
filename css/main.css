@@ -94,7 +94,7 @@ header a:link, header a:visited{
 	display: none;
 }
 
-.mobile-menu {
+#mobile-menu, #mobile-menu-icon {
 	display: none;
 }
 
