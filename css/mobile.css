@@ -186,13 +186,13 @@
 	}
 
 	.service-item {
-		width: 70px;
+		width: 23%;
 		height: 100px;
-		margin: 0 0 50px 43px;
+		margin: 0 0 50px 32px;
 	}
 
 	.service-item:last-child {
-		margin: 0 0 50px 43px;
+		margin: 0 0 50px 32px;
 	}
 
 	.service-name {
@@ -321,7 +321,7 @@
 	}
 
 	.client-logo {
-		width: 30.5%;
+		width: 30%;
 	}
 
 	.client-logo img {
