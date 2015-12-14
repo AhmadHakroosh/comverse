@@ -188,11 +188,11 @@
 	.service-item {
 		width: 23%;
 		height: 100px;
-		margin: 0 0 50px 32px;
+		margin: 0 0 50px 26px;
 	}
 
 	.service-item:last-child {
-		margin: 0 0 50px 32px;
+		margin: 0 0 50px 26px;
 	}
 
 	.service-name {
