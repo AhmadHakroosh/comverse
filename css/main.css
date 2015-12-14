@@ -104,9 +104,11 @@ header a:link, header a:visited{
 	margin-top: 30px;
 }
 
-.mobile-search {
+#mobile-search, #mobile-search-icon {
 	display: none;
 }
+
+
 
 .search {
 	width: 105px;
