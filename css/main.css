@@ -586,6 +586,10 @@ img.company-logo {
     height: 100%;
 }
 
+#back-top {
+	display: none;
+}
+
 footer {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size: 0.8em;
