@@ -366,6 +366,7 @@ button:hover{
 
 .news-events {
 	background: url(img/news-and-events-bg.jpg) 50% no-repeat fixed;
+	background-size: cover;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	color: white;
 	height: 420px;

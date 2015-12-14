@@ -78,7 +78,9 @@
 
 	.mobile-search:focus + .search-form {
 		display: inline-block;
-		position: relative;
+		position: absolute;
+		background: white;
+		margin: 10px 0 0 -120px;
 	}
 
 	.search-form {
