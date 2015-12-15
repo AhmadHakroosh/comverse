@@ -118,7 +118,7 @@
 	.highlights {
 		width: 100%;
 		font-size: 0.8em;
-		background: url(img/slide-bg-complexity.jpg) no-repeat;
+		background: url(img/slide-bg-complexity.jpg) no-repeat center center;
 		background-size: cover;
 		padding-bottom: 140px;
 	}
