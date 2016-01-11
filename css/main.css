@@ -159,6 +159,10 @@ header a:link, header a:visited{
 	min-height: 550px;
 }
 
+#comverse, #market, #new-section {
+	display: none;
+}
+
 .highlights {
 	height: 330px;
 	width: 420px;
@@ -707,6 +711,7 @@ footer a:visited {
 	height: 26px;
 	width: 30%;
 	float: right;
+	padding: 0;
 }
 
 .social-menu {
