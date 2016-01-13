@@ -148,6 +148,8 @@
 	.numbered-bullets {
 		display: block;
 		margin: 20px 0 10px 10px;
+		position: absolute;
+		width: 80%;
 	}
 
 	.bullet {
@@ -403,6 +405,7 @@
 		display: inline-block;
 		position: relative;
 		float: right;
+		bottom: 8px;
 	}
 
 }

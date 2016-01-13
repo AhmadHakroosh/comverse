@@ -193,6 +193,11 @@ button:hover{
 	cursor: pointer;
 }
 
+.bullets {
+	position: absolute;
+	width: 50%;
+}
+
 .bullet {
 	width: 10px;
 	height: 10px;
@@ -384,6 +389,11 @@ button:hover{
 	text-transform: uppercase;
 }
 
+.news-events a:link, .news-events a:visited {
+	text-decoration: none;
+	color: white;
+}
+
 .news, .events {
 	display: inline-block;
 	float: left;
@@ -504,6 +514,11 @@ button:hover{
 	margin-top: 112px;
 }
 
+.story-details a:link, .story-details a:visited {
+	text-decoration: none;
+	color: #7c7c7c;
+}
+
 .quote {
 	border-bottom: 1px solid rgb(221, 221, 221);
 }
@@ -616,6 +631,10 @@ footer {
 
 footer a:link {
 	text-decoration: none;
+}
+
+footer a:link:hover {
+	text-decoration: underline;
 }
 
 footer a:visited {
