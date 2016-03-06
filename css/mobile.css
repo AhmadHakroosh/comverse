@@ -21,6 +21,10 @@
 		overflow: hidden;
 	}
 
+	.mobile-menu-form {
+		float: left;
+	}
+
 	#mobile-menu {
 		display: none;
 	}

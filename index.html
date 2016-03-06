@@ -36,26 +36,32 @@
 					<ul>
 						<li class="login-menu-item"><a href="index.html">Customer login</a></li>
 						<li class="login-menu-item no-background">
-							<select class="language-menu no-margin">
-								<option value="English">EN</option>
-								<option value="עברית">עברית</option>
-								<option value="العربية">العربية</option>
-							</select>
+							<form>
+								<select class="language-menu no-margin">
+									<option value="English">EN</option>
+									<option value="עברית">עברית</option>
+									<option value="العربية">العربية</option>
+								</select>
+							</form>
 						</li>
 					</ul>
 				</div>
 				
-				<label id="mobile-search-icon" for="mobile-search"><img src="css/img/searchBtnMobile.png" alt="search"></label>
-				<input type="checkbox" id="mobile-search">
-
+				<form class="mobile-search-form">
+					<label id="mobile-search-icon" for="mobile-search"><img src="css/img/searchBtnMobile.png" alt="search"></label>
+					<input type="checkbox" id="mobile-search">
+				</form>
+				
 				<form method="GET" action="" class="search-form right">
 					<input type="search" name="search" class="search left">
 					<input type="submit" name="submit" value="" class="submit left">
 				</form>
-
-				<label id="mobile-menu-icon" for="mobile-menu"><img src="css/img/hamburger-icon.png" alt="menu"></label>
-				<input type="checkbox" id="mobile-menu">
-
+				
+				<form class="mobile-menu-form">
+					<label id="mobile-menu-icon" for="mobile-menu"><img src="css/img/hamburger-icon.png" alt="menu"></label>
+					<input type="checkbox" id="mobile-menu">
+				</form>
+				
 				<ul class="mobile-menu-items">
 					<li class="mobile-nav-item">
 						<a href="index.html">Your Needs</a>
