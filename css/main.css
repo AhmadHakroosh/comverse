@@ -141,6 +141,10 @@ header a:link, header a:visited{
 	outline: none;
 }
 
+#language-label {
+	display: none;
+}
+
 .language-menu {
 	width: 45px;
 	border: none;
