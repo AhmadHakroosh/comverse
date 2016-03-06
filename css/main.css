@@ -104,10 +104,6 @@ header a:link, header a:visited{
 	margin-top: 30px;
 }
 
-#search-label, #search-button-label {
-	display: none;
-}
-
 #mobile-search, #mobile-search-icon {
 	display: none;
 }
@@ -143,7 +139,7 @@ header a:link, header a:visited{
 	outline: none;
 }
 
-#language-label {
+#language-label, #search-label, #search-button-label, #mobile-language-label {
 	display: none;
 }
 
