@@ -89,7 +89,7 @@
 		width: 32px;
 		height: 30px;
 		border-radius: 4px;
-		padding: 8px 3px 0 3px;
+		padding: 8px 6px 0 3px;
 		border: 1px solid grey;
 		float: right;
 		margin-right: 10px;
@@ -110,7 +110,7 @@
 	}
 
 	.search {
-		width: 150px;
+		width: 145px;
 		height: 38px;
 	}
 
